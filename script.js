@@ -5,6 +5,6 @@ document.querySelector('.calculate').addEventListener('click', function () {
   a = parseInt(a)
   b = parseInt(b)
   height = parseInt(height)
-  let area = (a + b) / 2 * height
+  const area = (a + b) / 2 * height
   alert(area)
 })
