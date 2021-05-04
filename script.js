@@ -1,5 +1,3 @@
-
-
 document.querySelector('.calculate').addEventListener('click', function () {
   let a = document.querySelector('.a').value
   let b = document.querySelector('.b').value
